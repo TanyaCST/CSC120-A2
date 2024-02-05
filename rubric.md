@@ -31,20 +31,20 @@ __YES__ 1 pt: Can successfully remove a `Computer` from the inventory
 
 __YES__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
-____ 1 pt: Program prints appropriate error messages
+__?__ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
 __YES___ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
-_____ 1 pt: Classes & class members all have header comments
+__PART___ 1 pt: Classes & class members all have header comments
 
 __YES___ 1 pt: Clear and consistent indentation
 
-_____ 1 pt: Adheres to conventions on naming / capitalization
+__PART___ 1 pt: Adheres to conventions on naming / capitalization
 
 __Yes___ 1 pt: Methods and variables all have clear and descriptive names
 
-_____ 1 pt: All required files included with submission (including completed checklist file)
+__YES___ 1 pt: All required files included with submission (including completed checklist file)
 
-_____ 1 pt: `reflection.md` contains your reflection on the assignment
+__YES___ 1 pt: `reflection.md` contains your reflection on the assignment
