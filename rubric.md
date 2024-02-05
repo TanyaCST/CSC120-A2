@@ -25,25 +25,25 @@ __YES(?)__ 1 pt: Constructor for `ResaleShop` class is present and sets attribut
 
 ### Level 3 (4 pts)
 
-____ 1 pt: Can successfully add a new `Computer` to the inventory
+__YES__ 1 pt: Can successfully add a new `Computer` to the inventory
 
-____ 1 pt: Can successfully remove a `Computer` from the inventory
+__YES__ 1 pt: Can successfully remove a `Computer` from the inventory
 
-____ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+__YES__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
 ____ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
-_____ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
+__YES___ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
 _____ 1 pt: Classes & class members all have header comments
 
-_____ 1 pt: Clear and consistent indentation
+__YES___ 1 pt: Clear and consistent indentation
 
 _____ 1 pt: Adheres to conventions on naming / capitalization
 
-_____ 1 pt: Methods and variables all have clear and descriptive names
+__Yes___ 1 pt: Methods and variables all have clear and descriptive names
 
 _____ 1 pt: All required files included with submission (including completed checklist file)
 
