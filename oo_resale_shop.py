@@ -1,4 +1,4 @@
-from computer import Computer
+from computer import Computer, computerInfo, price_change, system_update
 
 class ResaleShop:
 
@@ -15,7 +15,7 @@ class ResaleShop:
     # Buy computers
     def buy(self):
         # 1. Call Computer Constructor
-        comp = Computer(self)
+        comp = computerInfo(self)
 
         # 2. Add computer information into inventory
         self.inventory.append(comp)
@@ -23,7 +23,7 @@ class ResaleShop:
     # Sell Computers
     def sell(self):
         # 1. Call Computer Constructor
-        comp = Computer(self)
+        comp = computerInfo(self)
 
         # 2. Remove computer information into inventory
         self.inventory.remove(comp)
@@ -32,14 +32,18 @@ class ResaleShop:
     def print_inventory(self):
         return self.inventory
     
-    # Refurbish the computer
     # Refurbish computer's price
-    def refurbuish_price(self, price:int):
-        # new_price = 
-        self.inventory
+    def refurbuish_price(self, new_price:int):
 
-    # Refurbish computer's system
-    # def refurbuish_os(self):
+        if new_price != Computer(self.price):
+            self.price = price_change(new_price)
+
+    # Refurbuish computer's system
+    def refurbish_system(self, system:str):
+        if system != Computer(self.operating_system):
+            self.operating_system = system_update(system)
+
+
 
     def main():
         print()
