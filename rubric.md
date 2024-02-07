@@ -11,7 +11,7 @@ Listed below are various aspects of the assignment.  When you turn in your work,
 
 __YES__ 1 pt: All expected attributes for `Computer` class are present
 
-__YES(?)__ 1 pt: All expected methods for `Computer` class are present
+__YES__ 1 pt: All expected methods for `Computer` class are present
 
 __YES__ 1 pt: Constructor for `Computer` class is present and sets attributes correctly
 
@@ -19,19 +19,19 @@ __YES__ 1 pt: Constructor for `Computer` class is present and sets attributes co
 
 __YES__ 1 pt: All expected attributes for `ResaleShop` class are present
 
-__YES__ 1 pt: All expected methods for `ResaleShop` class are present
+__PART__ 1 pt: All expected methods for `ResaleShop` class are present
 
-__YES(?)__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes correctly
+__PART__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes correctly
 
 ### Level 3 (4 pts)
 
-__YES__ 1 pt: Can successfully add a new `Computer` to the inventory
+____ 1 pt: Can successfully add a new `Computer` to the inventory
 
-__YES__ 1 pt: Can successfully remove a `Computer` from the inventory
+____ 1 pt: Can successfully remove a `Computer` from the inventory
 
-__YES__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+____ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
-__?__ 1 pt: Program prints appropriate error messages
+__YES__ 1 pt: Program prints appropriate error messages
 
 ## General Items (10 pts):
 
