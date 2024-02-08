@@ -1,4 +1,4 @@
-from computer import Computer, computerInfo, price_change, system_update
+from computer import Computer,  __init__, computerInfo, price_change, system_update
 
 class ResaleShop:
 
@@ -35,17 +35,32 @@ class ResaleShop:
     # Refurbish computer's price
     def refurbuish_price(self, new_price:int):
 
-        if new_price != Computer(self.price):
+        if new_price != self.price:
             self.price = price_change(new_price)
 
     # Refurbuish computer's system
     def refurbish_system(self, system:str):
-        if system != Computer(self.operating_system):
+        if system != self.operating_system:
             self.operating_system = system_update(system)
 
 
 
     def main():
-        print()
+        # Gather computer info
+        computer_description = __init__("Mac Pro (Late 2013)",
+                                         "3.5 GHc 6-Core Intel Xeon E5",
+                                        1024, 
+                                        64,
+                                        "macOS Big Sur", 
+                                        2013, 
+                                        1500)
+        
+        # Store information into the inventory
+        computer1 = computerInfo(computer_description)
+
+        # Print out inventory
+        print(computer1)
+
+        # Change price of
 
     main()

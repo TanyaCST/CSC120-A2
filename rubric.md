@@ -25,11 +25,11 @@ __YES__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes 
 
 ### Level 3 (4 pts)
 
-____ 1 pt: Can successfully add a new `Computer` to the inventory
+__No__ 1 pt: Can successfully add a new `Computer` to the inventory
 
-____ 1 pt: Can successfully remove a `Computer` from the inventory
+__No__ 1 pt: Can successfully remove a `Computer` from the inventory
 
-____ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+__No__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
 __YES__ 1 pt: Program prints appropriate error messages
 
