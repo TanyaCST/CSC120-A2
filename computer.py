@@ -29,24 +29,18 @@ class Computer:
         self.price = price
 
     # What methods will you need?
-    # Gather computer's information
-    def computerInfo(self):
-        # return the product description
-        return {"description":self.description,
-                "processor_type":self.processor_type,
-                "hard_drive_capacity":self.hard_drive_capacity,
-                "memory":self.memory,
-                "operating_system":self.operating_system,
-                "year_made":self.year_made,
-                "price":self.price}
-
     # Update the price
-    def price_change(self,
-                     new_price: int):
-        self.price = new_price
+    def priceChange(self, new_price: int):
+        if self.inventory.keys(self):
+            self.price = new_price
+        else:
+            return "We don't have this computer in inventory"
 
     # Update the operating system
-    def system_update(self,
-                      new_system: str):
-        self.operating_system = new_system
+    def systemUpdate(self, new_system: str):
+        if self.inventory.keys(self):
+            self.operating_system = new_system
+        else:
+            return "We don't have this computer in inventory"
+
         

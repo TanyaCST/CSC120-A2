@@ -25,11 +25,11 @@ __YES__ 1 pt: Constructor for `ResaleShop` class is present and sets attributes 
 
 ### Level 3 (4 pts)
 
-__No__ 1 pt: Can successfully add a new `Computer` to the inventory
+__YES__ 1 pt: Can successfully add a new `Computer` to the inventory
 
-__No__ 1 pt: Can successfully remove a `Computer` from the inventory
+__YES__ 1 pt: Can successfully remove a `Computer` from the inventory
 
-__No__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
+__YES__ 1 pt: Can successfully update the price/OS of a `Computer` contained in the inventory
 
 __YES__ 1 pt: Program prints appropriate error messages
 
@@ -37,7 +37,7 @@ __YES__ 1 pt: Program prints appropriate error messages
 
 __YES___ 4 pts: Program executes fully & consistently without crashing (exception/freeze)
 
-__PART___ 1 pt: Classes & class members all have header comments
+__YES___ 1 pt: Classes & class members all have header comments
 
 __YES___ 1 pt: Clear and consistent indentation
 

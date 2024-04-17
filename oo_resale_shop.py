@@ -1,4 +1,4 @@
-from computer import Computer,  __init__, computerInfo, price_change, system_update
+from computer import Computer,  __init__, priceChange, systemUpdate
 
 class ResaleShop:
 
@@ -9,45 +9,37 @@ class ResaleShop:
     # Remember: in python, all constructors have the same name (__init__)
     def __init__(self,
                  inventory: list):
-        self.inventory = inventory
+        self.inventory = []
 
     # What methods will you need?
     # Buy computers
-    def buy(self):
-        # 1. Call Computer Constructor
-        comp = computerInfo(self)
-
-        # 2. Add computer information into inventory
-        self.inventory.append(comp)
+    def buy(self, c:Computer):
+        self.inventory.append(c)
 
     # Sell Computers
-    def sell(self):
-        # 1. Call Computer Constructor
-        comp = computerInfo(self)
-
-        # 2. Remove computer information into inventory
-        self.inventory.remove(comp)
+    def sell(self, c:Computer):
+        self.inventory.remove(c)
 
     # Print the inventory
-    def print_inventory(self):
+    def printInventory(self):
         return self.inventory
     
     # Refurbish computer's price
-    def refurbuish_price(self, new_price:int):
+    def refurbuishPrice(self, new_price:int):
 
         if new_price != self.price:
-            self.price = price_change(new_price)
+            self.price = priceChange(new_price)
 
     # Refurbuish computer's system
-    def refurbish_system(self, system:str):
+    def refurbishSystem(self, system:str):
         if system != self.operating_system:
-            self.operating_system = system_update(system)
+            self.operating_system = systemUpdate(system)
 
 
 
     def main():
         # Gather computer info
-        computer_description = __init__("Mac Pro (Late 2013)",
+        computerDescription = __init__("Mac Pro (Late 2013)",
                                          "3.5 GHc 6-Core Intel Xeon E5",
                                         1024, 
                                         64,
@@ -56,7 +48,7 @@ class ResaleShop:
                                         1500)
         
         # Store information into the inventory
-        computer1 = computerInfo(computer_description)
+        computer1 = computerDescription
 
         # Print out inventory
         print(computer1)
